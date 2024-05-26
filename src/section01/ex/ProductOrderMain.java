@@ -19,11 +19,11 @@ public class ProductOrderMain {
         productOrder3.quantity = 2;
 
         ProductOrder[] productOrders = {productOrder1, productOrder2, productOrder3};
-        int totalPrice = 0;
+        int totalAmount = 0;
         for (ProductOrder productOrder : productOrders) {
             System.out.println("상품명: " + productOrder.productName + ", 가격 " + productOrder.price + " 수량: " + productOrder.quantity);
-            totalPrice = productOrder.price;
+            totalAmount += productOrder.price * productOrder.quantity;
         }
-        System.out.println("총 결제 금액: " + totalPrice);
+        System.out.println("총 결제 금액: " + totalAmount);
     }
 }
