@@ -1,2 +1,7 @@
-package section01.class1;public class Student {
+package section01.class1;
+
+public class Student {
+    String name;
+    int age;
+    int grade;
 }

@@ -1,2 +1,6 @@
-package section01.exercise;public class MovieReview {
+package section01.ex;
+
+public class MovieReview {
+    String title;
+    String review;
 }
