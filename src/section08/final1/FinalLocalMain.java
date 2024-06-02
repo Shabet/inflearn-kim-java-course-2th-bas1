@@ -10,7 +10,7 @@ public class FinalLocalMain {
 
         //final 지역 변수2
         final int data2 = 10;
-//        data2 = 20; //컴파일 오류R
+//        data2 = 20; //컴파일 오류
 
         method(10);
     }
